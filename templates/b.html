@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户信息</title>
+</head>
+<body>
+    <h1>欢迎，{{ username }}！</h1>
+    <img src="{{ url_for('static', filename='image.jpg') }}" alt="随机图片">
+</body>
+</html>
